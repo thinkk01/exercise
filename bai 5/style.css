@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.slide__show{
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.list__image{
+    display: flex;
+    transition: .5s;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-left{
+    left: 20px;
+}
+.btn-right{
+    right: 20px;
+}
+.btn:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.index-image{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.index-item{
+    border: 2px solid #999;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.active{
+    background-color: #999;
+}

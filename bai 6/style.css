@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.content {
+    height: 2000px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.none{
+    display: none;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.scroll-top:hover {
+    opacity: 1;
+}
